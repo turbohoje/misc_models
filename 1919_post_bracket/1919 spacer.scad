@@ -1,10 +1,10 @@
 $fn = 40;
-size = *25.4 * 2) * pow(2,0.5);
+size = (25.4 * 2) * pow(2,0.5);
 
 height = 2.5 * 25.4;
 cir = 34.92/2;
 
-linear_extrude(){
+linear_extrude(height){
 	difference(){
 		hull(){
 			polygon(points=[
