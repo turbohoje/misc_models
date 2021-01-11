@@ -2,6 +2,7 @@
 # generate an image of each object
 #sym link this to .git/hooks/pre-commit
 
+
 echo "Generating PNGs from SCADs"
 
 find . -name "*.scad" -exec /Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD -o {}.png --imgsize=600,600  {} \;
