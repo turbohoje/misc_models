@@ -3,7 +3,7 @@
 $diameter = 57.8; //mm
 $height = 30; //mm 25.1 mm in an inch
 $wall = 5;
-$ecc = 1;
+$ecc = .5;
 
 $fn = 150;
 
