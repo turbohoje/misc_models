@@ -26,7 +26,7 @@ String Adjuster
 ### Keg Spacer
 to cast into concrete
 
-![singlelayer](./counter_spacer/kegspacer.scad.png?raw=true) 
+![spacer](./counter_spacers/kegspacer.scad.png?raw=true) 
 
 
 ### Vacuum hose F2F adapter
