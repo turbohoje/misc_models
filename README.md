@@ -16,3 +16,8 @@ Magnet holder
 String Adjuster
 ![tent_slack](./screen_clamp/string_adj.scad.png?raw=true)
 
+
+### Key Spacer
+to cast into concrete
+
+![singlelayer](./counter_psacer/kegspacer.scad.png?raw=true) 
