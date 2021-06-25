@@ -1,10 +1,10 @@
 $fn = 50;
 
-length = 95;
-thick  = 80;
+length = 62;
+thick  = 24/4; //quarter inch
 sides = 6;
 angle = (sides-2)*180 / sides; // (n-2)*180 /n
-gap = 10;
+gap = 3;
 
 translate([gap/2,gap/2,0])
 hex_cap();
