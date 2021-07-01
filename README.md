@@ -32,3 +32,12 @@ to cast into concrete
 ### Vacuum hose F2F adapter
 
 ![hose_couple](./vacuum_f2f/female_to_female.scad.png?raw=true)
+
+## Primitives
+
+these are used for varying density in cura
+
+![cone](./vacuum_f2f/cone.scad.png?raw=true)
+![cube](./vacuum_f2f/cube.scad.png?raw=true)
+![cylinder](./vacuum_f2f/cylinder.scad.png?raw=true)
+![sphere](./vacuum_f2f/sphere.scad.png?raw=true)
