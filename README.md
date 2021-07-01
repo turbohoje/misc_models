@@ -5,7 +5,7 @@
 ### 1919 post bracket
 this is a spacer for the light string holders.  printed in pla, archived in case they degrade.
 
-![spacer](./1919_post_bracket/1919 spacer.scad.png?raw=true)
+![spacer](./1919_post_bracket/1919%20spacer.scad.png?raw=true)
 
 
 ### screen_clamp
@@ -37,7 +37,7 @@ to cast into concrete
 
 these are used for varying density in cura
 
-![cone](./vacuum_f2f/cone.scad.png?raw=true)
-![cube](./vacuum_f2f/cube.scad.png?raw=true)
-![cylinder](./vacuum_f2f/cylinder.scad.png?raw=true)
-![sphere](./vacuum_f2f/sphere.scad.png?raw=true)
+![cone](./primitives/cone.scad.png?raw=true)
+![cube](./primitives/cube.scad.png?raw=true)
+![cylinder](./primitives/cylinder.scad.png?raw=true)
+![sphere](./primitives/sphere.scad.png?raw=true)
