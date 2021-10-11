@@ -37,6 +37,10 @@ to cast into concrete
 
 ![hose_couple](./weed_eater_wallhanger/hanger.scad.png?raw=true)
 
+### String Trimmer Wall Hanger
+
+![gopro_holder](./gopro_max_anker3k/ziptie.scad.png?raw=true)
+
 ## Primitives
 
 these are used for varying density in cura
