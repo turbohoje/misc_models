@@ -37,9 +37,9 @@ to cast into concrete
 
 ![hose_couple](./weed_eater_wallhanger/hanger.scad.png?raw=true)
 
-### String Trimmer Wall Hanger
-
-![gopro_holder](./gopro_max_anker3k/ziptie.scad.png?raw=true)
+### Gopro Max under wing battery holder
+for use with batteries of [this](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Compatible-Smartphones/dp/B005X1Y7I2/) form factor.
+![gopro_holder](./gopro_max_anker3k/clip.scad.png?raw=true)
 
 ## Primitives
 
