@@ -1,1 +1,0 @@
-Gopro Max battery door for USB cable by sqwitt on Thingiverse: https://www.thingiverse.com/thing:4721933
