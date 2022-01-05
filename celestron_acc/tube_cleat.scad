@@ -6,8 +6,8 @@ $c_maj_width = 43;
 $c_height = 15;
 
 // tube dimensions
-$tube_radius = 80 / 2;
-$strap_thick = 2;
+$tube_radius = 83/ 2;
+$strap_thick = 1.5;
 
 //cut width
 $cut = 1;
@@ -23,9 +23,9 @@ linear_extrude(height = 100) {
                         [- $c_width / 2, 0],
                         [$c_width / 2,0]
                     ]);
-            circle($tube_radius);
+            circle($tube_radius + $strap_thick);
         }
-        circle($tube_radius - $strap_thick);
+        circle($tube_radius);
         // v bend relief
         polygon([
                 [-$c_height, $tube_radius-$c_height],
