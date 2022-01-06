@@ -6,7 +6,7 @@ $c_maj_width = 43;
 $c_height = 15;
 
 // tube dimensions
-$tube_radius = 83/ 2;
+$tube_radius = 82/ 2;
 $strap_thick = 1.5;
 
 //cut width
