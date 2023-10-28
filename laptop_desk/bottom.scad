@@ -17,6 +17,9 @@ $offset = $depth-$post_r-15;
 translate([10,0,0]){
     //cube([10,$offset,1]);
 }
+translate([10,0,0]){
+    //cube([10,$offset-$cut+15,1]);
+}
 
 difference(){
     //shape
@@ -40,7 +43,7 @@ difference(){
         cylinder(3*$height, $screw_r, $screw_r);
     }
     translate([0, $depth/2, $height-($screw_r)+.1]){
-        cylinder($screw_r, $screw_r, 2*$screw_r);
+        cylinder($screw_r, $screw_r, 2.5*$screw_r);
     }
     
     //post cut
