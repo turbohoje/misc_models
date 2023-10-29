@@ -5,4 +5,6 @@
 
 echo "Generating PNGs from SCADs"
 
-find . -name "*.scad" -exec /Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD -o {}.png --imgsize=600,600  {} \;
+#find . -name "*.scad" -exec /Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD -o {}.png --imgsize=600,600  {} \;
+
+find . -name "*.scad" -exec $(which openscad) -o {}.png --imgsize=600,600  {} \;
