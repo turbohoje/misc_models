@@ -1,8 +1,8 @@
 $fn = 100;
 
-$diameter = 75;
+$diameter = 56;
 $thick = 10;
-$nut_dia = 10;
+$nut_dia = 11;
 $shaft_dia = 4;
 
 difference(){
@@ -24,6 +24,6 @@ difference(){
     cylinder(h = $thick-1, r=$nut_dia/2, $fn=6);
     
     //cutaway
-    translate([0,-50,-1])
-    cube([100,100,100]);
+    //translate([0,-50,-1])
+    //cube([100,100,100]);
 }
