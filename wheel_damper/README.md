@@ -6,7 +6,7 @@ Outer sfhaft
 
 ![Image 1](outer_mount.scad.png)  
 
-![Image 2](shaft.scad.png.jpg)
+![Image 2](shaft.scad.png)
 
 ## installed
 ![jpg](mount.jpg)
