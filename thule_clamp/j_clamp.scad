@@ -1,10 +1,10 @@
 // J Clamp Profile
 // All dimensions in mm
 // --- Parameters ---
-back_height = 50+14;  // height of the vertical back stem
+back_height = 53+14;  // height of the vertical back stem
 inner_d     = 50;     // inside diameter of the J curve
 stroke_w    = 18;     // thickness of all strokes
-depth       = 18;     // extrusion depth (thickness into Z)
+depth       = 38;     // extrusion depth (thickness into Z)
 bolt_d      = 9;      // diameter of bolt hole through center of back stem
 chamfer     = 2;      // chamfer size on top and bottom outside edges
 $fn = 120;
