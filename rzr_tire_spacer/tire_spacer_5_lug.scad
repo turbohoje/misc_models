@@ -36,8 +36,12 @@ bolt_radius = bolt_pcd / 2;    // 57.15mm
 lug_hole_diameter = 12.7;      // 0.5" lug hole — parameterized
 
 // Hub recess parameters
-hub_recess_diameter = 108;     // parameterized
+hub_recess_diameter = 80;      // parameterized
 hub_recess_depth = 25.4;       // 1" deep into the shape from top face
+
+// Nut recess parameters
+nut_recess_diameter = 22;      // across-flats size for nut (parameterized)
+nut_recess_depth = 10;         // depth of hex recess into top face (parameterized)
 
 // Lug positions (from bolt pattern analysis)
 lug_a_x = -33.6;
@@ -94,6 +98,12 @@ module lug_hole() {
     cylinder(h = hull_height * 3, d = lug_hole_diameter, center = true);
 }
 
+module nut_recess() {
+    // Hex nut recess cut from the top face downward
+    translate([0, 0, hull_height - nut_recess_depth])
+        cylinder(h = nut_recess_depth + 1, d = nut_recess_diameter, $fn = 6);
+}
+
 // --- Final Shape ---
 
 difference() {
@@ -116,6 +126,16 @@ difference() {
 
     translate([lug_d_x, lug_d_y, 0])
         lug_hole();
+
+    // Hex nut recesses — centered on each lug hole, cut from top face
+    translate([lug_a_x, lug_a_y, 0])
+        nut_recess();
+
+    translate([lug_b_x, lug_b_y, 0])
+        nut_recess();
+
+    translate([lug_d_x, lug_d_y, 0])
+        nut_recess();
 
     // Hub recess — cylinder cut from the top circle face downward
     translate([0, hub_center_y, hull_height - hub_recess_depth])
