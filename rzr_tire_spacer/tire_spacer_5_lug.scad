@@ -24,7 +24,7 @@ vert_slot_top_from_top = 85.8; // down from top edge
 vert_slot_y_center = height - vert_slot_top_from_top - vert_slot_height/2;
 
 // Hull parameters
-hull_height = 76.2;       // 3" up the Z axis (parameterized)
+hull_height = 176.2;       // 3" up the Z axis (parameterized)
 circle_diameter = 228.6;  // 9" diameter (parameterized)
 
 // Hub center position (from bolt pattern analysis)
