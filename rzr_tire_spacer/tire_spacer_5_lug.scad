@@ -41,7 +41,7 @@ hub_recess_diameter = 80;      // parameterized
 hub_recess_depth = 25.4;       // 1" deep into the shape from top face
 
 // Nut recess parameters
-nut_recess_diameter = 22;      // across-flats size for nut (parameterized)
+nut_recess_diameter = 22.5;      // across-flats size for nut (parameterized)
 nut_recess_depth = 10;         // depth of hex recess into top face (parameterized)
 
 // Strap ring parameters
