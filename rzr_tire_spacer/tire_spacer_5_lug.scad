@@ -25,7 +25,7 @@ vert_slot_top_from_top = 85.8; // down from top edge
 vert_slot_y_center = height - vert_slot_top_from_top - vert_slot_height/2;
 
 // Hull parameters
-hull_height = 176.2;       // up the Z axis (parameterized)
+hull_height = 35;       // up the Z axis (parameterized)
 circle_diameter = 228.6;  // 9" diameter (parameterized)
 
 // Hub center position (from bolt pattern analysis)
@@ -37,7 +37,7 @@ bolt_radius = bolt_pcd / 2;    // 57.15mm
 lug_hole_diameter = 12.7;      // 0.5" lug hole — parameterized
 
 // Hub recess parameters
-hub_recess_diameter = 80;      // parameterized
+hub_recess_diameter = 75;      // parameterized
 hub_recess_depth = 25.4;       // 1" deep into the shape from top face
 
 // Nut recess parameters
@@ -193,7 +193,7 @@ difference() {
     // Star relief — 5 wedge cuts radiating from hub center
     star_relief();
 
-    // Strap ring — left side
+    /*// Strap ring — left side
     translate([0, hub_center_y - circle_diameter / 2 - hull_height/2.5, strap_ring_z_center])
         rotate([90, 0, 90])
         strap_ring();
@@ -202,4 +202,5 @@ difference() {
     translate([0, hub_center_y + circle_diameter / 2 + hull_height/5, strap_ring_z_center - hull_height/8])
         rotate([90, 0, 90])
         strap_ring();
+    */
 }
